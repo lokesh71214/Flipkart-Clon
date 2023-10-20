@@ -1,0 +1,137 @@
+.flipcarthomenamediv {
+    padding-top: 5%;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+html{
+    margin: 0%;
+    padding: 0px;
+}
+
+
+.flipcarthomename {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    padding: 10px 50px;
+    background-color: rgb(243, 243, 243);
+    margin: 5%;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.flipcarthomename:active {
+    background-color: #2a55e5;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+.flipcarthomename:hover {
+    background-color: #2a55e5;
+    color: aliceblue;
+    font-weight: bold;
+
+
+}
+
+.mainnav {
+    display: flex;
+    gap: 5%;
+    background-color: #0e4290;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+* {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    width: 60%;
+}
+.navigation .logoimage{
+    width: 130px;
+    height: 22px;
+    padding-bottom: 0%;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.navigation .G90_N3{
+    display:inline;
+    align-items: center;
+    margin-left: 30%;
+    padding-top: 0%;
+    font-style: italic;
+    color: gray;
+    font-weight:bold;
+    margin-top: -20px;
+}
+.navigation .G90_N4{
+    color: gold;
+}
+.navigation
+
+.searchbar {
+    border: 0;
+    outline: 0 none;
+    font-size: 17px;
+    height: 40px;
+    width: 70%;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding-left: 1%;
+    background-color: rgba(255, 255, 255, 0.311);
+}
+
+.navigation1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 1%;
+    color: rgb(55, 55, 55);
+    gap: 2%;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logindiv {
+    width: fit-content;
+    margin-left: 5%;
+    padding: 10px 15px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.logindiv:hover {
+    background-color: rgba(7, 7, 210, 0.818);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.shoopingdiv {
+    margin-left: 5%;
+    gap: 2%;
+    cursor: pointer;
+}
+
+#menus {
+    margin-left: 5%;
+    display: flex;
+    font-size: large;
+    cursor: pointer;
+}

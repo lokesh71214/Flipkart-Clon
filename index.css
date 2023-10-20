@@ -1,0 +1,280 @@
+.flipcarthomenamediv {
+    padding-top: 5%;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+}
+
+
+.flipcarthomename {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    padding: 10px 50px;
+    background-color: rgb(243, 243, 243);
+    margin: 5%;
+    border-radius: 7px;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+
+.flipcarthomename:active {
+    background-color: #2a55e5;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+.flipcarthomename:hover {
+    background-color: #2a55e5;
+    color: aliceblue;
+    font-weight: bold;
+
+
+}
+
+.mainnav {
+    display: flex;
+    gap: 5%;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+* {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    width: 60%;
+}
+.navigation .logoimage{
+    width: 130px;
+    height: 22px;
+    padding-bottom: 0%;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.navigation .G90_N3{
+    display:inline;
+    align-items: center;
+    margin-left: 30%;
+    padding-top: 0%;
+    font-style: italic;
+    color: gray;
+    font-weight:bold;
+    margin-top: -20px;
+}
+.navigation .G90_N4{
+    color: gold;
+}
+.navigation
+
+.searchbar {
+    border: 0;
+    outline: 0 none;
+    font-size: 17px;
+    height: 40px;
+    width: 100%;
+    margin-left: 2%;
+    border-radius: 10px;
+    padding-left: 1%;
+    background-color: rgba(173, 216, 230, 0.311);
+}
+
+.navigation1 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    gap: 1%;
+    color: rgb(55, 55, 55);
+    gap: 2%;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.logindiv {
+    width: fit-content;
+    margin-left: 5%;
+    padding: 10px 15px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+
+.logindiv:hover {
+    background-color: rgba(7, 7, 210, 0.818);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.shoopingdiv {
+    margin-left: 5%;
+    gap: 2%;
+    cursor: pointer;
+}
+
+#menus {
+    margin-left: 5%;
+    display: flex;
+    font-size: large;
+    cursor: pointer;
+}
+
+/* top product list */
+
+
+.topproduct {
+    display: flex;
+    background-color: #ffffff;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    gap: 4%;
+    width: auto;
+    padding-left: 2%;
+    padding-right: 0%;
+    height: fit-content;
+    overflow-x: auto;
+    text-align: center;
+    cursor: pointer;
+    scroll-snap-type: none;
+}
+
+
+.prduct1 {
+    width: fit-content;
+    padding: 0%;
+
+}
+
+.imageslider img {
+    width: 100vw;
+    cursor: pointer;
+}
+
+.imagecontainer {
+    width: 100vw;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.imagecontainer img {
+    width: 33vw;
+    padding: 3px;
+    cursor: pointer;
+}
+
+@media (width <=1250px) and (width > 700px) {
+    .mainnav span {
+        display: none;
+    }
+
+    .mainnav .navigation1 {
+        margin-left: 5%;
+    }
+
+    .searchbar {
+        width: 90%;
+    }
+}
+
+@media (width <=770px) {
+    .mainnav {
+        display: none;
+    }
+
+}
+
+/* best mobile */
+.featuredbranded {
+    background-color: #ffffff;
+    
+    border-radius: 20px;
+
+}
+
+.fearutebrandedimages {
+    background-color: #ffffff;
+    height: fit-content;
+    width: 100vw;
+    overflow-x: auto;
+    display: flex;
+    padding: 0%;
+    margin-top: -2.5%;
+
+}
+
+.featuredbranded h2 {
+    padding: 02%;
+    font-size: x-large;
+    font-weight: bold;
+    display: block;
+}
+
+/* greate mobile */
+
+.uniqueimage{
+    width: 100vw;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+/* usb gadget */
+
+.USBGadget{
+background-color: #ffffff;
+width: 100vw;
+height: fit-content;
+display: flex;
+overflow-x: auto;
+padding-left: 14px;
+padding-right: 14px;
+padding-bottom: 15px;
+padding-top: 15px;
+
+
+
+}
+.USBGadget h3, h4{    
+    padding-top: 0%;
+    font-size: 14px;
+}
+
+.firstprpoductofusbgadget{
+    width: 216px;
+    border: 1px solid gray;
+    margin: 1%;
+
+}
+.firstprpoductofusbgadget img{
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 40px;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.foot1, .fot2{
+    width: 100vw;
+    gap: opx;
+    display: flex;
+    background-color: aquamarine;
+}
+.an1{
+    display: inline;
+    width: 30%;
+}
